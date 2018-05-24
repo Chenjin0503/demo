@@ -1,0 +1,18 @@
+$(function(){
+				$("#ugly1").mouseover(function(){
+					$("#ugly1").hide();
+					$("#ugly2").show(100);
+				});
+				$("#ugly2").mouseover(function(){
+					$("#ugly2").hide();
+					$("#ugly3").show(100);
+				});
+				$("#ugly3").mouseover(function(){
+					$("#ugly3").hide();
+					$("#ugly1").show(100);
+				});
+				$("#beauty").click(function(){
+					$("#img").animate({left:"-=500px"},2000)
+					$("#img").animate({left:"+=500px"},2000)
+				});
+			});

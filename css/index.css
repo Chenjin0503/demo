@@ -1,0 +1,51 @@
+#beauty {
+				left: 300px;
+				top: 100px;
+				width: 200px;
+				height: 100px;
+				background-color: bisque;
+				text-align: center;
+				line-height: 100px;
+				position: fixed;
+			}
+			#ugly1{
+				right: 300px;
+				top: 100px;
+				width: 200px;
+				height: 100px;
+				background-color: bisque;
+				text-align: center;
+				line-height: 100px;
+				position: fixed;
+			}
+			#ugly2{
+				right: 450px;
+				top: 300px;
+				width: 200px;
+				height: 100px;
+				background-color: bisque;
+				text-align: center;
+				line-height: 100px;
+				position: fixed;
+				display: none;
+			}
+			#ugly3{
+				right: 235px;
+				top: 400px;
+				width: 200px;
+				height: 100px;
+				background-color: bisque;
+				text-align: center;
+				line-height: 100px;
+				position: fixed;
+				display: none;
+			}
+			input{
+				font-size: 20px;
+			}
+			img{
+				left: 1366px;
+				width: 500px;
+				height: 568px;
+				position: fixed;
+			}
